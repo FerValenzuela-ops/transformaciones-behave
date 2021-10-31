@@ -1,0 +1,18 @@
+Tarea 2.
+
+AutomatizaciÃ³n de pruebas con Gherkin y Python.
+
+Lo que se pide es crear una funcionalidad que permita
+transformar dinero
+de una moneda a otra ( similar a la tarea 1),
+pero usando Gherkin para crear
+pero usando Gherkin para crear
+los ejemplos que se usan para automatizar la prueba.
+En la implementaciÃ³n debe considerar las siguientes monedas
+
+CLP peso chileno 1.0/813.50
+USD dolar de EEUU 1.0/1.0
+EUR euro de la comunidad europea 1.0/0.86
+ARS peso argentino 1.0/99.70
+BRL real brasileÃ±o 1.0/6.64
+BTC Bitcoin 1.0/0.000016
