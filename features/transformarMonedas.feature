@@ -5,7 +5,7 @@ Feature: Transformacion de Monedas
     Given Tengo la moneda CLP con ratio de cambio 1/813.50
     And  la deseo transformar a ARS que tiene ratio de cambio 1/99.70
     When cambio mis 1000 CLP a ARS
-    Then mi dinero es de 122.56 ARS
+    Then mi dinero es de 99.7 ARS
 
 
   Scenario: Transformar BTC a BRL
@@ -19,9 +19,9 @@ Feature: Transformacion de Monedas
     Given Tengo la moneda EUR con ratio de cambio 1/0.86
     And  la deseo transformar a USD que tiene ratio de cambio 1/1.0
     When cambio mis 1000 EUR a USD
-    Then mi dinero es de 1162.79 USD
+    Then mi dinero es de 1163.0 USD
 
-   Scenario: Transformar ARS a BTC
+  Scenario: Transformar ARS a BTC
     Given Tengo la moneda ARS con ratio de cambio 1/99.70
     And  la deseo transformar a BTC que tiene ratio de cambio 1/0.000016
     When cambio mis 100000 ARS a BTC
@@ -32,7 +32,7 @@ Feature: Transformacion de Monedas
     Given Tengo la moneda BRL con ratio de cambio 1/5.64
     And  la deseo transformar a CLP que tiene ratio de cambio 1/813.50
     When cambio mis 1000 BRL a CLP
-    Then mi dinero es de 144237.59 CLP
+    Then mi dinero es de 143989.5 CLP
 
   Scenario: Transformar USD a ARS
     Given Tengo la moneda USD con ratio de cambio 1/1.0
